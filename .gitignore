@@ -1,0 +1,25 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# PlatformIO additional stuff
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.elf
+*.bin
+*.hex
+*.map
+*.dat
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Optional: if you store sensitive Wi-Fi or token credentials in a separate file
+credentials.h
+secrets.h
