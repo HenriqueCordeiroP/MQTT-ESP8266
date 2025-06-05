@@ -63,7 +63,7 @@ Este projeto implementa uma solução completa de monitoramento de fluxo de pess
 
 #### ESP8266
 
-- Arduino IDE
+- VSCode + PlatformIO
 - Bibliotecas: ESP8266WiFi, PubSubClient
 
 ### Rede
