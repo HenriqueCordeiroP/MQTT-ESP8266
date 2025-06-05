@@ -5,14 +5,6 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-/**
- * TODO: Métricas
- * volume de pessoas por horário
- * ocupação atual
- * horários de fluxo
- * quantidade máxima de pessoas
- * entradas/saídas por minuto
- */
 struct MQTTPayload
 {
   int event;
@@ -28,8 +20,11 @@ void handleExit();
 
 const char *ssid = "Familia_Ribeiro";
 const char *password = "100200Ribeiro#";
+// const char *ssid = "uaifai-tiradentes";
+// const char *password = "bemvindoaocesar";
 
 const char *mqtt_server = "192.168.0.54";
+// const char *mqtt_server = "172.17.0.1";
 const int mqtt_port = 1883;
 const char *mqtt_topic = "monitor/traffic-flow";
 const char *mqtt_client_id = "esp8266-traffic-monitor";
